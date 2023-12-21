@@ -19,5 +19,10 @@ public class NewEntity {
     @Column(name = "id", nullable = false)
     private Long id;
 
+    @Column(name = "age")
+    private Integer age;
+
+    @Column(name = "my_school")
+    private String mySchool;
 
 }
