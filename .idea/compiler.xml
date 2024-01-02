@@ -7,25 +7,29 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="user-service" />
+        <module name="spring_user" />
+        <module name="config-server" />
         <module name="eureka-server" />
-        <module name="config" />
+        <module name="product_service" />
         <module name="gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="config" target="17" />
+      <module name="config-server" target="17" />
       <module name="eureka-server" target="17" />
       <module name="gateway" target="17" />
-      <module name="user-service" target="17" />
+      <module name="microservice-test" target="17" />
+      <module name="product_service" target="17" />
+      <module name="spring_user" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="config" options="-parameters" />
+      <module name="config-server" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="gateway" options="-parameters" />
-      <module name="user-service" options="-parameters" />
+      <module name="product_service" options="-parameters" />
+      <module name="spring_user" options="-parameters" />
     </option>
   </component>
 </project>

@@ -1,0 +1,40 @@
+{
+  "name": "vue-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/vue-fontawesome": "^3.0.3",
+    "animate.css": "^4.1.1",
+    "axios": "^1.6.2",
+    "bootstrap": "^5.3.0",
+    "core-js": "^3.8.3",
+    "cors": "^2.8.5",
+    "date-fns": "^2.30.0",
+    "jquery": "^3.7.0",
+    "pinia": "^2.0.36",
+    "usemodal-vue3": "^0.3.7",
+    "v-autocomplete": "^1.8.2",
+    "vue": "^3.2.13",
+    "vue-loading-overlay": "6.0",
+    "vue-router": "^4.2.0",
+    "vue-toastification": "^2.0.0-rc.5",
+    "vuejs-paginate": "^2.1.0",
+    "vuetify": "^3.3.5",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "~5.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

@@ -1,0 +1,8 @@
+.card, .product{
+    height: 300px;
+}
+
+.product-below{
+    position: absolute;
+    bottom: 0;
+}

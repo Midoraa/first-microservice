@@ -1,0 +1,75 @@
+/*** Section Title ***/
+.section-title::before {
+    position: absolute;
+    content: "";
+    width: 150px;
+    height: 5px;
+    left: 0;
+    bottom: 0;
+    background: var(--primary);
+    border-radius: 2px;
+}
+
+.section-title.text-center::before {
+    left: 50%;
+    margin-left: -75px;
+}
+
+.section-title.section-title-sm::before {
+    width: 90px;
+    height: 3px;
+}
+
+.section-title::after {
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 5px;
+    bottom: 0px;
+    background: #FFFFFF;
+    animation: section-title-run 5s infinite linear;
+}
+
+.section-title.section-title-sm::after {
+    width: 4px;
+    height: 3px;
+}
+
+.section-title.text-center::after {
+    animation: section-title-run-center 5s infinite linear;
+}
+
+.section-title.section-title-sm::after {
+    animation: section-title-run-sm 5s infinite linear;
+}
+
+@keyframes section-title-run {
+    0% { left: 0; } 50% { left: 145px; } 100% { left: 0; }
+}
+
+@keyframes section-title-run-center {
+    0% { left: 50%; margin-left: -75px; } 50% { left: 50%; margin-left: 45px; } 100% { left: 50%; margin-left: -75px; }
+}
+
+@keyframes section-title-run-sm {
+    0% { left: 0; } 50% { left: 85px; } 100% { left: 0; }
+}
+
+
+@media (max-width: 767px) {
+    .d-flex .emailtest {
+      display: flex;
+      padding-right: 0; /* Remove padding to stretch the text */
+      width: 100%; /* Make the link take up the full width */
+      box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    }
+  }
+
+
+.text-link{
+    text-decoration: none;
+}
+
+.arrow{
+    color: gray;
+}

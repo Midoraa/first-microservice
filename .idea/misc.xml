@@ -4,9 +4,11 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/gateway/pom.xml" />
-        <option value="$PROJECT_DIR$/user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_user/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
-        <option value="$PROJECT_DIR$/config/pom.xml" />
+        <option value="$PROJECT_DIR$/porm.xml" />
+        <option value="$PROJECT_DIR$/product_service/pom.xml" />
       </list>
     </option>
   </component>
